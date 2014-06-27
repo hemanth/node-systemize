@@ -2,6 +2,16 @@
 
 > Systemize your junkyard. (Organise your files.)
 
+__FROM:__
+
+![](http://h3manth.com/i/from.png)
+
+
+__TO:__
+
+![](http://h3manth.com/i/to.png)
+
+
 ## Install
 
 ```sh
@@ -11,6 +21,7 @@ $ npm install -g systemize
 ## Usage
 
 ##### Node.js
+
 
 ```javascript
 var systemize = require('systemize');
