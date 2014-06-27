@@ -27,8 +27,21 @@ module.exports = function(dir, cb) {
     var music = [
         '*.mp3',
         '*.wav',
-        '*.oga',
-        '*.mp4'
+        '*.oga'
+    ];
+
+    var videos = [
+        '*.mp4',
+        '*.avi',
+        '*.ogv',
+        '*.ogg'
+    ];
+
+    var archives = [
+        '*.zip',
+        '*.tgz',
+        '*.tar',
+        '*.rar'
     ];
 
     var organise = function(args) {
@@ -71,6 +84,14 @@ module.exports = function(dir, cb) {
     organise({
         type: docs,
         dir: 'documents'
+    });
+    organise({
+        type: videos,
+        dir: 'videos'
+    });
+    organise({
+        type: archives,
+        dir: 'archives'
     });
 
     process.chdir(pwd);
