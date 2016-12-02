@@ -1,33 +1,33 @@
 {
-    "name": "systemize",
-    "version": "0.1.1",
-    "description": "Systemize the chaos. (Organize your files)",
-    "main": "index.js",
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/hemanth/node-systemize"
-    },
-    "keywords": [
-        "organise",
-        "folder",
-        "dirs",
-        "files",
-        "fs"
-    ],
-    "files": [
-        "index.js",
-        "cli.js"
-    ],
-    "bin": {
-        "systemize": "cli.js"
-    },
-    "author": "Hemanth.HM",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/hemanth/node-systemize/issues"
-    },
-    "dependencies": {
-        "globby": "~0.1.1",
-        "fs-extra": "~0.9.1"
-    }
+  "name": "systemize",
+  "version": "0.1.1",
+  "description": "Systemize the chaos. (Organize your files)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hemanth/node-systemize"
+  },
+  "keywords": [
+    "organise",
+    "folder",
+    "dirs",
+    "files",
+    "fs"
+  ],
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "bin": {
+    "systemize": "cli.js"
+  },
+  "author": "Hemanth.HM",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hemanth/node-systemize/issues"
+  },
+  "dependencies": {
+    "globby": "~2.0.0",
+    "fs-extra": "~0.9.1"
+  }
 }
