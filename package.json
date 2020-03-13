@@ -28,6 +28,6 @@
   },
   "dependencies": {
     "globby": "~2.0.0",
-    "fs-extra": "~0.9.1"
+    "fs-extra": "~0.13.0"
   }
 }
