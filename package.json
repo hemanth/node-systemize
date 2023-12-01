@@ -27,7 +27,7 @@
     "url": "https://github.com/hemanth/node-systemize/issues"
   },
   "dependencies": {
-    "globby": "~2.0.0",
-    "fs-extra": "~0.9.1"
+    "globby": "~11.0.0",
+    "fs-extra": "~1.0.0"
   }
 }
