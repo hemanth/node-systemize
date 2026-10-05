@@ -3,7 +3,7 @@ module.exports = function(dir, cb) {
     if (!cb) {
         throw new Error('Callback is a must!');
     }
-    var globby = require('globby');
+    var globby = ((m) => (m && m.default) ? m.default : m)(require('globby'));
     var fs = require('fs-extra');
     var join = require('path').join;
 
